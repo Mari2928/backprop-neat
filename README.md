@@ -3,7 +3,7 @@
 This project implements backpropagation combining NEAT-Python.
 
 ### Requirements
-This project requires the following packages.
+This project requires the following packages. Tested with Python 3.11.11.
 ```text
 jax
 graphviz
