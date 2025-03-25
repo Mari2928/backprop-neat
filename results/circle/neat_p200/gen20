@@ -1,0 +1,7 @@
+digraph {
+	Input1 [fillcolor=lightgray shape=circle style=filled]
+	Input2 [fillcolor=lightgray shape=circle style=filled]
+	Output1 [label="Output1
+(gauss)" fillcolor=lightblue shape=circle style=filled]
+	Input2 -> Output1 [label=1.64]
+}
