@@ -1,0 +1,11 @@
+digraph {
+	Input1 [fillcolor=lightgray shape=circle style=filled]
+	Input2 [fillcolor=lightgray shape=circle style=filled]
+	Output1 [label="Output1
+(relu)" fillcolor=lightblue shape=circle style=filled]
+	Hidden1 [label="Hidden1
+(sin)" fillcolor=white shape=circle style=filled]
+	Input2 -> Output1 [label=1.36]
+	Input1 -> Hidden1 [label=0.33]
+	Hidden1 -> Output1 [label=0.63]
+}

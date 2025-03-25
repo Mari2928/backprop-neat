@@ -1,0 +1,7 @@
+digraph {
+	Input1 [fillcolor=lightgray shape=circle style=filled]
+	Input2 [fillcolor=lightgray shape=circle style=filled]
+	Output1 [label="Output1
+(sin)" fillcolor=lightblue shape=circle style=filled]
+	Input1 -> Output1 [label=0.39]
+}

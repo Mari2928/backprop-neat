@@ -1,0 +1,12 @@
+digraph {
+	Input1 [fillcolor=lightgray shape=circle style=filled]
+	Input2 [fillcolor=lightgray shape=circle style=filled]
+	Output1 [label="Output1
+(relu)" fillcolor=lightblue shape=circle style=filled]
+	Hidden1 [label="Hidden1
+(tanh)" fillcolor=white shape=circle style=filled]
+	Input2 -> Output1 [label=2.62]
+	Input1 -> Hidden1 [label=2.24]
+	Hidden1 -> Output1 [label=-2.20]
+	Input1 -> Output1 [label=0.74]
+}
